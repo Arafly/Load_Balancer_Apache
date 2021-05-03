@@ -97,7 +97,7 @@ Try to refresh your browser page on
 <http://<Load-Balancer-Public-IP-Address-or-Public-DNS-Name/index.php>
 multiple times so that both servers receive HTTP GET requests from your LB - new records must appear in each server’s log file. The number of requests to each server will be approximately the same since we set loadfactor to the same value for both servers - it means that traffic will be disctributed evenly between them.
 
-*duo image
+![](https://github.com/Arafly/Load_Balancer_Apache/blob/master/assets/Duo_webservers.PNG)
 
 ### Optional Step - Configure Local DNS Names Resolution
 Sometimes it is tedious to remember and switch between IP addresses, especially if you have a lot of servers under your management.
